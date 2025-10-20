@@ -1,23 +1,31 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
+export default { name: 'App' }
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
+  <div id="app">
+    <header class="site-header">
+      <div class="container header-row">
+        <h1 class="brand">John • Portfolio</h1>
+        <nav class="nav">
+          <router-link to="/">Home</router-link>
+          <router-link to="/projects">Projects</router-link>
+          <router-link to="/about">About</router-link>
+          <router-link to="/contact">Contact</router-link>
+        </nav>
+      </div>
+    </header>
 
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+    <main class="container">
+      <router-view />
+    </main>
 
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
-    </div>
-  </header>
-
-  <RouterView />
+    <footer class="site-footer">
+      <div class="container">© John — <a href="https://github.com/USERNAME" target="_blank" rel="noreferrer">GitHub</a></div>
+    </footer>
+  </div>
 </template>
 
 <style scoped>
