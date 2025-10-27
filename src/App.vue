@@ -1,7 +1,7 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
-export default { name: 'App' }
+defineOptions({name: 'App'})
 </script>
 
 <template>
