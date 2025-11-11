@@ -42,3 +42,5 @@ vendor/
 # Cypress (if used)
 cypress/videos/
 cypress/screenshots/
+
+TODO-private.md
