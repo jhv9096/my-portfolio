@@ -5,7 +5,7 @@ import IntroBlock from '@/components/IntroBlock.vue'
 
 <template>
   <main>
-    <IntroBlock></IntroBlock>
+    <IntroBlock/>
   </main>
 
 <!--  <main>-->
