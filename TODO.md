@@ -2,7 +2,7 @@
 
 ## 🏗️ Pages & Features
 - [ ] Home Page: Welcome message and intro
-- [x] About Page: Background, interests, and journey
+- [ ] About Page: Background, interests, and journey
 - [ ] Projects Page: Showcase GitHub projects with descriptions
 - [ ] Tech Stack Page: Highlight IDEs, languages, and tools
 - [ ] Contact Page: Professional contact form or info

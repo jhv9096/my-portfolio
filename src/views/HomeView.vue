@@ -1,9 +1,14 @@
 <script setup>
 import TheWelcome from '../components/TheWelcome.vue'
+import IntroBlock from '@/components/IntroBlock.vue'
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+    <IntroBlock></IntroBlock>
   </main>
+
+<!--  <main>-->
+<!--    <TheWelcome />-->
+<!--  </main>-->
 </template>
